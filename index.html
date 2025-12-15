@@ -3,29 +3,39 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>In Planung</title>
+  <title>Website im Aufbau</title>
   <style>
     html, body {
       height: 100%;
       margin: 0;
     }
     body {
-      display: grid;
-      place-items: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      background: #fff;
+      background: #ffffff;
     }
-    .big {
-      font-size: clamp(48px, 12vw, 160px);
+    .container {
+      max-width: 900px;
+      padding: 20px;
+    }
+    .headline {
+      font-size: clamp(36px, 6vw, 72px);
       font-weight: 800;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    .subtext {
+      font-size: clamp(18px, 3vw, 28px);
+      font-weight: 400;
     }
   </style>
 </head>
 <body>
-  <div class="big">Unsere Website befindet sich derzeit im Aufbau.
-Wir sind bald für Sie da.</div>
+  <div class="container">
+    <div class="headline">Unsere Website befindet sich derzeit im Aufbau.</div>
+    <div class="subtext">Wir sind bald für Sie da.</div>
+  </div>
 </body>
 </html>
-
